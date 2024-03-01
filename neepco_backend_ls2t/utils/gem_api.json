@@ -1,0 +1,614 @@
+[
+    {
+      "Gem_id": "GEM001",
+      "org_id": "GeM_org001",
+      "Procurement_details": {
+        "product": "Laptop",
+        "project_dpt": "IT_Department",
+        "type": "hardware",
+        "category": "electronics",
+        "description": "High-performance laptop for development",
+        "vendor_id": "GeM_vendor001",
+        "quantity": "5",
+        "unit": "units",
+        "amount": "5000",
+        "start_date": "2023-01-25",
+        "end_date": "2023-02-17",
+        "seller": {
+          "seller_id": "122B32J2332987AQ",
+          "Company_name": "Tech Solutions Ltd.",
+          "Contact_no": 9897887672,
+          "address": "52 A, 4th Floor INDIAN REGISTER OF SHIPPING, POWAI, MUMBAI, MAHARASHTRA",
+          "email_id": "john@techsolutions.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH143219837212",
+          "MSE_Social_Category": "General",
+          "MSE_Gender": "Male",
+          "GST_in": "2432HD3213JKA12"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 567,
+          "file_path": "aws.s3.bucket.prc567.pdf",
+          "created_at": 684685415454
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI23",
+          "crac_id": 890,
+          "file_path": "aws.s3.bucket.crac890.pdf",
+          "createdAt": 9884635216844
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM002",
+      "org_id": "GeM_org002",
+      "Procurement_details": {
+        "product": "Desktop Computer",
+        "project_dpt": "Admin_Department",
+        "type": "hardware",
+        "category": "electronics",
+        "description": "Powerful desktop computer for office use",
+        "vendor_id": "GeM_vendor002",
+        "quantity": "10",
+        "unit": "units",
+        "amount": "8000",
+        "start_date": "2023-03-10",
+        "end_date": "2023-04-02",
+        "seller": {
+          "seller_id": "98HJ32JKL3247DF1",
+          "Company_name": "Office Tech Solutions",
+          "Contact_no": 9876543210,
+          "address": "123 Main St, Cityville, State",
+          "email_id": "info@officetech.com",
+          "MSME_verified": false,
+          "MSME_registration_no": "",
+          "MSE_Social_Category": "",
+          "MSE_Gender": "",
+          "GST_in": "9876ABCD1234EFG"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+      {
+      "Gem_id": "GEM003",
+      "org_id": "GeM_org003",
+      "Procurement_details": {
+        "product": "Printer",
+        "project_dpt": "Print_Services",
+        "type": "hardware",
+        "category": "peripherals",
+        "description": "High-speed laser printer for the office",
+        "vendor_id": "GeM_vendor003",
+        "quantity": "3",
+        "unit": "units",
+        "amount": "1200",
+        "start_date": "2023-02-15",
+        "end_date": "2023-03-05",
+        "seller": {
+          "seller_id": "67HJ89KL3247DF1",
+          "Company_name": "PrintTech Solutions",
+          "Contact_no": 9876543211,
+          "address": "456 Print St, Printville, State",
+          "email_id": "info@printtech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH876543210",
+          "MSE_Social_Category": "OBC",
+          "MSE_Gender": "Female",
+          "GST_in": "8765WXYZ4321ABCE"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 568,
+          "file_path": "aws.s3.bucket.prc568.pdf",
+          "created_at": 684685415455
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI24",
+          "crac_id": 891,
+          "file_path": "aws.s3.bucket.crac891.pdf",
+          "createdAt": 9884635216845
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM004",
+      "org_id": "GeM_org004",
+      "Procurement_details": {
+        "product": "Office Chairs",
+        "project_dpt": "Facilities_Department",
+        "type": "furniture",
+        "category": "office_furniture",
+        "description": "Ergonomic office chairs for the workplace",
+        "vendor_id": "GeM_vendor004",
+        "quantity": "15",
+        "unit": "units",
+        "amount": "3000",
+        "start_date": "2023-03-20",
+        "end_date": "2023-04-10",
+        "seller": {
+          "seller_id": "23JK67KL3247DF2",
+          "Company_name": "Comfort Furniture Co.",
+          "Contact_no": 9876543212,
+          "address": "789 Comfort St, Comfortville, State",
+          "email_id": "info@comfortfurniture.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH765432109",
+          "MSE_Social_Category": "SC",
+          "MSE_Gender": "Male",
+          "GST_in": "7654WXYZ4321ABCF"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+  {
+      "Gem_id": "GEM005",
+      "org_id": "GeM_org005",
+      "Procurement_details": {
+        "product": "Smartphone",
+        "project_dpt": "Mobile_Technology",
+        "type": "electronics",
+        "category": "mobile_devices",
+        "description": "High-end smartphone for team members",
+        "vendor_id": "GeM_vendor005",
+        "quantity": "8",
+        "unit": "units",
+        "amount": "4800",
+        "start_date": "2023-02-10",
+        "end_date": "2023-03-01",
+        "seller": {
+          "seller_id": "45JK78KL3247DF3",
+          "Company_name": "MobileTech Solutions",
+          "Contact_no": 9876543213,
+          "address": "101 Mobile St, Techville, State",
+          "email_id": "info@mobiletech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH654321098",
+          "MSE_Social_Category": "OBC",
+          "MSE_Gender": "Female",
+          "GST_in": "6543WXYZ4321ABCG"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 569,
+          "file_path": "aws.s3.bucket.prc569.pdf",
+          "created_at": 684685415456
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI25",
+          "crac_id": 892,
+          "file_path": "aws.s3.bucket.crac892.pdf",
+          "createdAt": 9884635216846
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM006",
+      "org_id": "GeM_org006",
+      "Procurement_details": {
+        "product": "Server",
+        "project_dpt": "Data_Center",
+        "type": "hardware",
+        "category": "servers",
+        "description": "Powerful server for data processing",
+        "vendor_id": "GeM_vendor006",
+        "quantity": "2",
+        "unit": "units",
+        "amount": "10000",
+        "start_date": "2023-03-15",
+        "end_date": "2023-04-05",
+        "seller": {
+          "seller_id": "89JK12KL3247DF4",
+          "Company_name": "DataTech Solutions",
+          "Contact_no": 9876543214,
+          "address": "456 Data St, Dataville, State",
+          "email_id": "info@datatech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH543210987",
+          "MSE_Social_Category": "General",
+          "MSE_Gender": "Male",
+          "GST_in": "5432WXYZ4321ABCH"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+  {
+      "Gem_id": "GEM007",
+      "org_id": "GeM_org007",
+      "Procurement_details": {
+        "product": "Projector",
+        "project_dpt": "Audio_Visual_Team",
+        "type": "electronics",
+        "category": "presentation_equipment",
+        "description": "High-definition projector for conference rooms",
+        "vendor_id": "GeM_vendor007",
+        "quantity": "3",
+        "unit": "units",
+        "amount": "3000",
+        "start_date": "2023-02-28",
+        "end_date": "2023-03-20",
+        "seller": {
+          "seller_id": "56JK90KL3247DF5",
+          "Company_name": "VisualTech Solutions",
+          "Contact_no": 9876543215,
+          "address": "789 Visual St, Visualville, State",
+          "email_id": "info@visualtech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH432109876",
+          "MSE_Social_Category": "SC",
+          "MSE_Gender": "Female",
+          "GST_in": "4321WXYZ4321ABCI"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 570,
+          "file_path": "aws.s3.bucket.prc570.pdf",
+          "created_at": 684685415457
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI26",
+          "crac_id": 893,
+          "file_path": "aws.s3.bucket.crac893.pdf",
+          "createdAt": 9884635216847
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM008",
+      "org_id": "GeM_org008",
+      "Procurement_details": {
+        "product": "Safety Helmets",
+        "project_dpt": "Construction_Site",
+        "type": "safety_equipment",
+        "category": "head_protection",
+        "description": "Durable safety helmets for construction workers",
+        "vendor_id": "GeM_vendor008",
+        "quantity": "20",
+        "unit": "units",
+        "amount": "800",
+        "start_date": "2023-03-05",
+        "end_date": "2023-03-25",
+        "seller": {
+          "seller_id": "12JK34KL3247DF6",
+          "Company_name": "SafetyGear Co.",
+          "Contact_no": 9876543216,
+          "address": "101 Safety St, Safetyville, State",
+          "email_id": "info@safetygear.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH321098765",
+          "MSE_Social_Category": "ST",
+          "MSE_Gender": "Male",
+          "GST_in": "3210WXYZ4321ABCJ"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+  {
+      "Gem_id": "GEM009",
+      "org_id": "GeM_org009",
+      "Procurement_details": {
+        "product": "Solar Panels",
+        "project_dpt": "Sustainability_Initiative",
+        "type": "energy",
+        "category": "solar_energy",
+        "description": "High-efficiency solar panels for green energy",
+        "vendor_id": "GeM_vendor009",
+        "quantity": "50",
+        "unit": "units",
+        "amount": "15000",
+        "start_date": "2023-04-01",
+        "end_date": "2023-04-30",
+        "seller": {
+          "seller_id": "78JK01KL3247DF7",
+          "Company_name": "GreenPower Solutions",
+          "Contact_no": 9876543217,
+          "address": "456 Green St, Greenville, State",
+          "email_id": "info@greenpower.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH210987654",
+          "MSE_Social_Category": "OBC",
+          "MSE_Gender": "Female",
+          "GST_in": "2109WXYZ4321ABCK"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 571,
+          "file_path": "aws.s3.bucket.prc571.pdf",
+          "created_at": 684685415458
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI27",
+          "crac_id": 894,
+          "file_path": "aws.s3.bucket.crac894.pdf",
+          "createdAt": 9884635216848
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM010",
+      "org_id": "GeM_org010",
+      "Procurement_details": {
+        "product": "Medical Gloves",
+        "project_dpt": "Healthcare_Services",
+        "type": "medical_supplies",
+        "category": "protective_equipment",
+        "description": "Disposable medical gloves for healthcare professionals",
+        "vendor_id": "GeM_vendor010",
+        "quantity": "1000",
+        "unit": "units",
+        "amount": "500",
+        "start_date": "2023-03-15",
+        "end_date": "2023-04-15",
+        "seller": {
+          "seller_id": "90JK23KL3247DF8",
+          "Company_name": "MediCare Supplies",
+          "Contact_no": 9876543218,
+          "address": "101 Medical St, Medicalville, State",
+          "email_id": "info@medicare.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH109876543",
+          "MSE_Social_Category": "SC",
+          "MSE_Gender": "Male",
+          "GST_in": "1098WXYZ4321ABCL"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+  {
+      "Gem_id": "GEM011",
+      "org_id": "GeM_org011",
+      "Procurement_details": {
+        "product": "Project Management Software",
+        "project_dpt": "Project_Management",
+        "type": "software",
+        "category": "project_management_tools",
+        "description": "Comprehensive project management software",
+        "vendor_id": "GeM_vendor011",
+        "quantity": "1",
+        "unit": "license",
+        "amount": "2500",
+        "start_date": "2023-04-10",
+        "end_date": "2023-05-10",
+        "seller": {
+          "seller_id": "01JK34KL3247DF9",
+          "Company_name": "TechProject Solutions",
+          "Contact_no": 9876543219,
+          "address": "456 Tech St, Techville, State",
+          "email_id": "info@techproject.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH987654321",
+          "MSE_Social_Category": "OBC",
+          "MSE_Gender": "Female",
+          "GST_in": "9876WXYZ4321ABCM"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 572,
+          "file_path": "aws.s3.bucket.prc572.pdf",
+          "created_at": 684685415459
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI28",
+          "crac_id": 895,
+          "file_path": "aws.s3.bucket.crac895.pdf",
+          "createdAt": 9884635216849
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM012",
+      "org_id": "GeM_org012",
+      "Procurement_details": {
+        "product": "Office Plants",
+        "project_dpt": "Office_Environment",
+        "type": "decor",
+        "category": "indoor_plants",
+        "description": "Green office plants for a healthy workspace",
+        "vendor_id": "GeM_vendor012",
+        "quantity": "15",
+        "unit": "plants",
+        "amount": "300",
+        "start_date": "2023-04-05",
+        "end_date": "2023-05-05",
+        "seller": {
+          "seller_id": "34JK56KL3247DF10",
+          "Company_name": "Greenery Co.",
+          "Contact_no": 9876543220,
+          "address": "101 Green St, GreenVille, State",
+          "email_id": "info@greenery.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH876543210",
+          "MSE_Social_Category": "SC",
+          "MSE_Gender": "Male",
+          "GST_in": "8765WXYZ4321ABCN"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    },
+    {
+      "Gem_id": "GEM013",
+      "org_id": "GeM_org013",
+      "Procurement_details": {
+        "product": "Security Cameras",
+        "project_dpt": "Security_Services",
+        "type": "security",
+        "category": "surveillance_cameras",
+        "description": "High-resolution security cameras for premises",
+        "vendor_id": "GeM_vendor013",
+        "quantity": "6",
+        "unit": "cameras",
+        "amount": "4500",
+        "start_date": "2023-05-01",
+        "end_date": "2023-05-30",
+        "seller": {
+          "seller_id": "56JK78KL3247DF11",
+          "Company_name": "SecureTech Solutions",
+          "Contact_no": 9876543221,
+          "address": "456 Secure St, Secureville, State",
+          "email_id": "info@securetech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH765432109",
+          "MSE_Social_Category": "General",
+          "MSE_Gender": "Female",
+          "GST_in": "7654WXYZ4321ABCO"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 573,
+          "file_path": "aws.s3.bucket.prc573.pdf",
+          "created_at": 684685415460
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI29",
+          "crac_id": 896,
+          "file_path": "aws.s3.bucket.crac896.pdf",
+          "createdAt": 9884635216850
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM014",
+      "org_id": "GeM_org014",
+      "Procurement_details": {
+        "product": "Training Services",
+        "project_dpt": "Human_Resources",
+        "type": "services",
+        "category": "professional_training",
+        "description": "Employee training services for skill development",
+        "vendor_id": "GeM_vendor014",
+        "quantity": "1",
+        "unit": "session",
+        "amount": "2000",
+        "start_date": "2023-05-15",
+        "end_date": "2023-06-15",
+        "seller": {
+          "seller_id": "78JK90KL3247DF12",
+          "Company_name": "SkillUp Solutions",
+          "Contact_no": 9876543222,
+          "address": "101 Training St, Trainingville, State",
+          "email_id": "info@skillup.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH543210987",
+          "MSE_Social_Category": "OBC",
+          "MSE_Gender": "Male",
+          "GST_in": "5432WXYZ4321ABCP"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 574,
+          "file_path": "aws.s3.bucket.prc574.pdf",
+          "created_at": 684685415461
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI30",
+          "crac_id": 897,
+          "file_path": "aws.s3.bucket.crac897.pdf",
+          "createdAt": 9884635216851
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM015",
+      "org_id": "GeM_org015",
+      "Procurement_details": {
+        "product": "Electric Bicycles",
+        "project_dpt": "Sustainable_Transportation",
+        "type": "vehicles",
+        "category": "electric_bicycles",
+        "description": "Environment-friendly electric bicycles for commuting",
+        "vendor_id": "GeM_vendor015",
+        "quantity": "5",
+        "unit": "bicycles",
+        "amount": "7500",
+        "start_date": "2023-06-01",
+        "end_date": "2023-06-30",
+        "seller": {
+          "seller_id": "90JK12KL3247DF13",
+          "Company_name": "EcoRide Tech",
+          "Contact_no": 9876543223,
+          "address": "456 Eco St, Ecoville, State",
+          "email_id": "info@ecoride.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH432109876",
+          "MSE_Social_Category": "SC",
+          "MSE_Gender": "Female",
+          "GST_in": "4321WXYZ4321ABCQ"
+        },
+        "prc_status": true,
+        "prc": {
+          "prc_id": 575,
+          "file_path": "aws.s3.bucket.prc575.pdf",
+          "created_at": 684685415462
+        },
+        "crac_status": true,
+        "crac": {
+          "conisgnee_GSTIN": "4312AS3313HSI31",
+          "crac_id": 898,
+          "file_path": "aws.s3.bucket.crac898.pdf",
+          "createdAt": 9884635216852
+        }
+      }
+    },
+    {
+      "Gem_id": "GEM016",
+      "org_id": "GeM_org016",
+      "Procurement_details": {
+        "product": "Audio Conferencing System",
+        "project_dpt": "Communication_Services",
+        "type": "electronics",
+        "category": "audio_visual_equipment",
+        "description": "Advanced audio conferencing system for meetings",
+        "vendor_id": "GeM_vendor016",
+        "quantity": "2",
+        "unit": "systems",
+        "amount": "5000",
+        "start_date": "2023-06-15",
+        "end_date": "2023-07-15",
+        "seller": {
+          "seller_id": "12JK34KL3247DF14",
+          "Company_name": "CommTech Solutions",
+          "Contact_no": 9876543224,
+          "address": "101 Comm St, Commville, State",
+          "email_id": "info@commtech.com",
+          "MSME_verified": true,
+          "MSME_registration_no": "MH321098765",
+          "MSE_Social_Category": "ST",
+          "MSE_Gender": "Male",
+          "GST_in": "3210WXYZ4321ABCR"
+        },
+        "prc_status": false,
+        "prc": {},
+        "crac_status": false,
+        "crac": {}
+      }
+    }
+  
+  
+  ]
+  

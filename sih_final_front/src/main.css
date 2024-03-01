@@ -1,0 +1,37 @@
+.e-grid {
+    /* font-family: cursive; */
+    border-radius: 10px;
+  }
+
+  .e-grid .e-row:hover .e-rowcell {
+    background-color: #ddecff !important;
+  }
+  /* .e-grid .e-rowcell.e-selectionbackground {
+    background-color: rgb(86, 86, 86);
+  } */
+  /* .e-grid .e-row.e-altrow {
+    background-color: #ffe6e9;
+  } */
+
+  .e-grid .e-headercell {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    background-color: #54afff;
+ }
+
+.e-filtermenudiv .e-icons .e-icon-filter{
+    color: white;
+}
+  .e-grid .e-row {
+    background-color: rgb(255, 255, 255);
+  }
+  .e-grid .e-gridpager .e-numericitem {
+    border-radius: initial;
+}
+
+  .e-grid .e-gridpager .e-currentitem {
+    background-color: #0078d7;
+    color: white;
+}
+
+

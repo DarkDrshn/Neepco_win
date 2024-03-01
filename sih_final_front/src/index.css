@@ -1,0 +1,256 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(225, 225, 225); 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(115, 197, 255); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(16, 144, 236); 
+}
+
+
+
+
+#google_element .skiptranslate span{
+display: none !important;
+}
+#google_element select{
+padding: 0.3rem 0.5rem ;
+border:0;
+border-radius: 0.5rem;
+}
+
+.w-1\/4{
+  width:auto;
+  /* padding-left: 0; */
+}
+.w-3\/4{
+width:100%;
+padding:2rem
+}
+.top-nav{
+  background-color: #fbc02de6;
+  border-radius: 0;
+  border: 0;
+  padding-top: 0rem;
+  padding-bottom: 0rem ;
+}
+.bottom-nav{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+  border: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem ;
+  position: relative;
+  z-index: 100;
+}
+
+.lang-bg{
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.text-wrap{
+  width:20rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sidebar{
+  border-radius: 0;
+  padding-left:0 ;
+  padding-right:0 ;
+  max-width: 18rem;
+  box-shadow: -10px -10px 20px 0px rgba(0 0 0 /25%);
+  height: 100%;
+
+}
+
+.h-50{
+  height: 50vh;
+}
+.tp{
+  width: 22%;
+  z-index: -1;
+  height: 100vh;
+}
+/* .text-blue-gray-700{
+  padding-left:0 ;
+  padding-right:0 ;
+} */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply the animation to the marquee element */
+.marquee {
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+}
+
+.header_img:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  /* background: url("http://www.gentleface.com/i/free_toolbar_icons_16x16_black.png") no-repeat -30px -50px no-scroll; */
+  background-color: #2899f5;
+  top: -90px;
+  right: -50px;
+  position: absolute;
+  display: inline-block;
+}
+.imggg{
+  width: 40rem;
+}
+
+
+/* Customize grid header background color */
+.e-grid {
+  border-radius: 50rem;
+}
+.e-grid .e-toolbar {
+  padding: 1rem;
+  background-color: #2a373d;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+}
+.e-toolbar .e-toolbar-item .e-tbar-btn {
+  background: #1e88e5;
+  box-shadow: none;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+}
+.e-toolbar .e-toolbar-item .e-tbar-btn:hover{
+  background: #58a9ef;
+  box-shadow: none;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+}
+.e-toolbar .e-toolbar-item .e-tbar-btn .e-icons,
+.e-toolbar .e-toolbar-item .e-tbar-btn .e-tbar-btn-text {
+  color: #ffffff;
+}
+
+
+.e-grid .e-toolbar-items .e-toolbar-item.e-search-wrapper .e-search,
+.e-input-group, .e-input-group.e-control-wrapper{
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+}
+
+.e-grid .e-gridheader .e-icons:not(.e-icon-hide):not(.e-check):not(.e-stop):not(.e-icon-reorderuparrow):not(.e-icon-reorderdownarrow) {
+  color: #ffffff;
+}
+
+
+.e-ddl.e-input-group input[readonly].e-input, .e-ddl.e-input-group input[readonly], .e-ddl.e-input-group .e-dropdownlist{
+  color: black;
+}
+
+.e-grid .e-table {
+  background-color: #ffffff00;
+  border-radius: 10px;
+}
+.e-grid .e-gridheader {
+  background-color: #ffffff00;
+  border-bottom-color: #ffffff00;
+  border-top-color: #e5e7eb;
+  color: #ffffff;
+}
+.e-grid.e-device .e-headercell,.e-grid.e-device .e-headercell:last-child,.e-grid.e-device .e-headercell:first-child {
+
+  padding: 18px 16px;
+  /* background: red; */
+}
+
+.e-grid .e-gridheader .e-sortfilter .e-rightalign.e-fltr-icon .e-headercelldiv,.e-grid .e-gridheader .e-sortfilter .e-fltr-icon .e-headercelldiv {
+  font-size: 12px;
+}
+
+.e-grid .e-headercontent {
+  border-color: #e5e7eb;
+  border-radius: 10px;
+}
+.e-grid.e-default .e-headercell, .e-grid.e-default .e-detailheadercell{
+  background-color: #1e88e5;
+  padding: 18px;
+}
+
+
+.e-grid .e-gridcontent {
+  background-color: #fff;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+}
+
+.e-footer-content .e-btn.e-primary.e-flat:not([DISABLED]) {
+  background: #1e88e5;
+  border-color: #52a3e9;
+  color: #fff;
+}
+
+
+/* Customize grid body font color */
+
+/* Customize grid pager background color */
+  .e-gridpager {
+    padding: 0.5rem 1rem;
+    background-color: rgb(236, 247, 255);
+    border-radius: 10px;
+}
+
+/* Customize filter dropdown styles */
+.e-filter-popup {
+  background-color: yellow;
+}
+
+.e-grid.e-device .e-rowcell, .e-grid.e-device .e-summarycell{
+  padding: 1rem;
+}
+
+/* Customize toolbar button styles */
+/* .e-toolbar-item {
+} */
